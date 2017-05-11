@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="PROJECT" libraries="{chalk-DefinitelyTyped, electron-DefinitelyTyped, react-DefinitelyTyped, react-dom-DefinitelyTyped, sinon-DefinitelyTyped, webpack-DefinitelyTyped, webpack-dev-middleware-DefinitelyTyped, webpack-hot-middleware-DefinitelyTyped}" />
+    <includedPredefinedLibrary name="Node.js Core" />
+  </component>
+</project>

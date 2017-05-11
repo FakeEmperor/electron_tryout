@@ -1,0 +1,10 @@
+
+
+$palette-light__bg-main: #ffffff;
+
+$palette-dark__bg-main: #383c3f;
+$palette-dark__bg-darker: darken($palette-dark__bg-main, 1%);
+$palette-dark__bg-lighter: lighten($palette-dark__bg-main, 2%);
+
+$palette-dark__font-main: #ffffff;
+$palette-light__font-main: #000;

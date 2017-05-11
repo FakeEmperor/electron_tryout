@@ -1,0 +1,32 @@
+@import "../../styles/selection";
+@import "../../styles/layout";
+
+
+.player img {
+  $dim: 30px;
+  width: $dim;
+  height: $dim;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-transition :  -webkit-filter 200ms linear;
+  &:hover {
+	-webkit-filter: brightness(150%);
+	-webkit-transition :  -webkit-filter 200ms linear;
+  }
+  &.bigger {
+	width: $dim * 1.5;
+	height: $dim * 1.5;
+  }
+}
+
+.player{
+  text-align: center;
+  margin-top: calc(10vh - 20px);
+  div{
+	display: block;
+	margin-left: 10px;
+	margin-right: 10px;
+  }
+
+  border: 1px;
+}
